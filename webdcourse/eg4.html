@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>JQuery Discoveryvip</title>
+<meta name="description" content="">
+<meta name="author" content="Discoveryvip">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel=
+"stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc=
+sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyK
+GVyQ==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body>
+<div class="container">
+<div id="mybutton" class="btn btn-primary">click here for javascript</div>
+<div id="mybutton2" class="btn btn-warning">click here for jquery</div>
+<div class="row">
+<div class="col-md-6" ><h1 align = center>text title</h1><p>this is just some text</p></div>
+<div class="col-md-6"><h1>Another title</h1><p>this is just some more text
+</p></div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+console.log(document.body);
+$(document).ready(function(){
+$(".btn").click(function(){alert('Hello');});
+});
+</script>
+</body>
+</html>
