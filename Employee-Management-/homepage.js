@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('.dashboard').mouseenter(function(){
     console.log('this works!');
   });
-  %(document).scroll(function(){
-    %('.login').css("border","1px solid blue");
+  $(document).scroll(function(){
+    $('.login').css("border","1px solid blue");
   });
 });

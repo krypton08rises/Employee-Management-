@@ -7,6 +7,7 @@
   <!-- <meta name="viewport" content="width = device-width" /> -->
 <meta charset="utf-8">
 <title>  IMARC   </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="homepage.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="homepage.js"></script>
@@ -27,21 +28,21 @@ $(document).ready(function(){
 <body>
     <div class="img">
         </div>
-    <div class = "container">
+    <div class = "container" roll = "main">
         <h1><a href="https://www.imarcgroup.com" target="_blank">iMARC</a></h1>
       <div class = "Wrapper">
-        <div class = "para"><p>iMarc is a leading market research company that  provides market and business research intelligence across the globe.</p></div>
-        <div class="REGISTER">
+        <div class = "col-md-10" id="para"><p>iMarc is a leading market research company that  provides market and business research intelligence across the globe.</p></div>
+        <div class="col-md-1" id = "REGISTER">
           <a href="https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail&hl=en-GB&gmb=exp&biz=false" target="_blank">REGISTER</a>
         </div>
-        <div class ="LOGIN">
+        <div class ="col-md-1" id = "LOGIN">
           <a href="file:///D:/study%20material/WEB%20DEV/Employee-Management-/LOGIN.html" target = "_blank"> LOGIN</a>
         </div>
       </div>
       <BR><BR>
       <div><h1> Employee Management System</h1><BR></div>
       <div id = "EMS-Features">
-          <div class = "dashboard">Dashboard
+    <!--      <div class = "dashboard">Dashboard
           </div>
           <div class = "human-resource">Human Resource
           </div>
@@ -59,6 +60,20 @@ $(document).ready(function(){
           </div>
           <div class = "Employees-exit">Employee Exit/Termination
           </div>
+
+        -->
+        <div class="row">
+          <div class="col-md-4 "><h1>Dashboard</h1></div>
+          <div class="col-md-4 "><h1>Human Resource</h1></div>
+          <div class="row">
+          <div class="col-md-4 "><h1>Performance</h1></div></div>
+          <div class="col-md-4 "><h1>Employee self service</h1></div>
+          <div class="col-md-4 "><h1>Leave Management</h1></div>
+          <div class="col-md-4 "><h1>Payroll Management</h1></div></div>
+
+          <div class="col-md-4 "><h1>Asset Management</h1></div>
+          <div class="col-md-4 "><h1>Time Management</h1></div>
+          <div class="col-md-4 "><h1>Employee Exit/Termination</h1></div>
       </div>
     </div>
 </body>
