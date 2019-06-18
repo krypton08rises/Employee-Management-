@@ -1,21 +1,13 @@
+/*
 a {
     text-decoration: none;
 }
   a:hover , a:active {
     text-decoration: underline;
   }
-
-.navbar-header{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-@@media only screen and(min width:750px){                                       /*for proper view in mobile devices*/
-}
-
+  */
+/*
 .container{
-  background-color:black;
 }
 
 #para{
@@ -40,6 +32,7 @@ a {
     background-color: #0090FF;
     color: black;
 }
+*/
 /*
 .dashboard,.human-resource,.Performance,.Employee-self-service,.Leave-Management,.Payroll-Management,.Asset-Management,.Time-Management,.Employees-exit{float: left;
     width: 20%;
@@ -49,7 +42,7 @@ a {
     margin-bottom: 60px;
 }
 */
-
+/*
 .row{
   padding: 10px;
   margin-bottom: 30px;
@@ -58,11 +51,12 @@ a {
 .col-md-4{
   color : #4285f4 !important;
 }
-
+*/
 /*{
   margin-left: 40%;
   position:relative;
 }*/
+
 body,html {
     font-family: 'Acme';font-size: 22px;
     height: 100%;
@@ -76,9 +70,9 @@ body,html {
       width:1920px;
       height:1080px;
       margin:0
-    */
-    height: 100%;
 
+    height: 100%;
+*/
   /* Center and scale the image nicely */
 /*  background-position: center;
   background-repeat: no-repeat;
@@ -86,21 +80,21 @@ body,html {
   opacity:0.2;
 }*/
 
-.navbar-header{
-  display: block;
-     text-align: center;
-     float: none;
-     vertical-align: top;
+.navbar-header {
+width : 100px;
+margin-left:100px;
+
 }
+
+.navbar-brand {float:none;}
 
 .container{
-  width: 100%;
-  height:100%;
-  position:absolute;
-  top: 0;
-  left:0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
+/*
 h1{
   text-align: center ;
   color : #8D4545;
@@ -112,3 +106,4 @@ h2{
     text-align: center;
     font-family: acme;
 }
+*/
