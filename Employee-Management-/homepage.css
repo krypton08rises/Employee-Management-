@@ -1,109 +1,59 @@
-/*
-a {
-    text-decoration: none;
-}
-  a:hover , a:active {
-    text-decoration: underline;
-  }
-  */
-/*
-.container{
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+@@import url(https://fonts.googleapis.com/css?family=Acme);
+
+html,body {
+  height:100%;
 }
 
-#para{
-  float : left;
-  width : 75%;
-  overflow-x: auto;
+h1 {
+  font-family: 'Antic Slab', serif;
+  font-size:80px;
+  color:#DDCCEE;
 }
 
-.heading{
-    padding : 20px;
+.lead {
+	color:#DDCCEE;
 }
 
-#REGISTER,#LOGIN{
-    float: right;
-    text-align:center;
-    width : 10%;
-    margin-left : 10px;
+.panel-heading{
+ width: 100%;
 }
 
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+  margin-top:7%;
+}
 #REGISTER{
-    border:1px solid black;
-    background-color: #0090FF;
-    color: black;
-}
-*/
-/*
-.dashboard,.human-resource,.Performance,.Employee-self-service,.Leave-Management,.Payroll-Management,.Asset-Management,.Time-Management,.Employees-exit{float: left;
-    width: 20%;
-    margin-left:150px;
-    text-align: center;
-    color:#0055FF;
-    margin-bottom: 60px;
-}
-*/
-/*
-.row{
-  padding: 10px;
-  margin-bottom: 30px;
+  font-family: 'Acme';
+  font-size: 20px;
+  margin-top:10px;
+  margin-right: 10px;
 }
 
-.col-md-4{
-  color : #4285f4 !important;
-}
-*/
-/*{
-  margin-left: 40%;
-  position:relative;
-}*/
-
-body,html {
-    font-family: 'Acme';font-size: 22px;
-    height: 100%;
-     margin: 0;
-   }/*
-.img{
-      background-image:url(http://multimediamarketing.com/wp-content/uploads/2015/01/Market-research-web.jpg);
-      /*background-repeat: no-repeat;
-      background-attachment:fixed;
-      background-size: 100% 100%
-      width:1920px;
-      height:1080px;
-      margin:0
-
-    height: 100%;
-*/
-  /* Center and scale the image nicely */
-/*  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity:0.2;
-}*/
-
-.navbar-header {
-width : 100px;
-margin-left:100px;
-
+#LOGIN{
+  font-family: 'Acme';
+  font-size: 20px;
 }
 
-.navbar-brand {float:none;}
-
-.container{
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-/*
-h1{
-  text-align: center ;
-  color : #8D4545;
-  font-family: acme;
+#username{
+  margin-bottom : 10px;
 }
 
-h2{
-  padding: 5px;
-    text-align: center;
-    font-family: acme;
+#password{
+  margin-bottom : 10px;
 }
-*/
