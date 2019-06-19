@@ -16,10 +16,6 @@ h1 {
 	color:#DDCCEE;
 }
 
-#btn1{
- width: 100%;
-}
-
 /* Custom container */
 .container-full {
   margin: 0 auto;
@@ -38,6 +34,15 @@ h1 {
 .v-center {
   margin-top:7%;
 }
+
+.col-md-12{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.panel-body{
+}
+
 #REGISTER{
   font-family: 'Acme';
   font-size: 20px;
@@ -56,4 +61,10 @@ h1 {
 
 #password{
   margin-bottom : 10px;
+}
+
+#btn{
+ width: 100%;
+ font-family: 'Acme';
+
 }
