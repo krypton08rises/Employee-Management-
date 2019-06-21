@@ -19,6 +19,9 @@ body {
   padding-top: 60px;
 }
 
+.pan{
+  margin-top:20px;
+}
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -49,7 +52,7 @@ body {
 }
 
 .container{
-  background-color: #ff4d4d	;
+  background-color: #e60000			;
 }
 
 h2{
@@ -60,10 +63,6 @@ h2{
 
 .navbar-header{
   margin-bottom: 0px;
-}
-
-.col-lg-6{
-  margin-left: 11.1%;
 }
 
 @media screen and (max-height: 450px) {
