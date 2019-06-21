@@ -1,5 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+@@import url(https://fonts.googleapis.com/css?family=Acme);
+
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
 }
 
 .sidenav {
@@ -14,6 +18,7 @@ body {
   transition: 0.5s;
   padding-top: 60px;
 }
+
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -34,6 +39,31 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.LOG-OUT{
+  color: #FFFFFF;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container{
+  background-color: #ff4d4d	;
+}
+
+h2{
+  font-family: 'Antic Slab';
+  font-size: 40px;
+  text-align:center;
+}
+
+.navbar-header{
+  margin-bottom: 0px;
+}
+
+.col-lg-6{
+  margin-left: 11.1%;
 }
 
 @media screen and (max-height: 450px) {
