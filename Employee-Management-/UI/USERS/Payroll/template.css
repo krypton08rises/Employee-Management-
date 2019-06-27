@@ -44,7 +44,7 @@
       border : solid black 1px;
     }
 
-  
+
     /* Navbar links: increase padding for taller navbar */
     .navbar .nav > li > a {
       padding: 15px 20px;
@@ -239,4 +239,9 @@
         line-height: 1.5;
       }
 
+    }
+
+
+    .month,.year{
+      font-size: 20px !important;
     }
