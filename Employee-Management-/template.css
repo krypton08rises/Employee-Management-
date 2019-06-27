@@ -117,7 +117,13 @@
       padding-left: 10px;
     }
 
+    .btn-primary{
+      float: right;
+    }
 
+    #Subject,#Application{
+      margin-bottom: 5px;
+    }
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
