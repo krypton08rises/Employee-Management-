@@ -6,6 +6,9 @@
       color: #5a5a5a;
     }
 
+    .container-fluid . col-lg-6{
+      position: relative;
+   }
 
 
     /* CUSTOMIZE THE NAVBAR
@@ -39,9 +42,6 @@
       font-size: 16px;
       font-weight: bold;
       text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-    .notifications-bar{
-      border : solid black 1px;
     }
 
 
@@ -109,8 +109,21 @@
       margin-top: 10px;
     }
 
+    .panel-heading{
+      padding-left: 10px;
+    }
 
+    .panel-body{
+      padding-left: 10px;
+    }
 
+    .btn-primary{
+      float: right;
+    }
+
+    #Subject,#Application{
+      margin-bottom: 5px;
+    }
     /* MARKETING CONTENT
     -------------------------------------------------- */
 
@@ -121,6 +134,7 @@
     .marketing h2 {
       font-weight: normal;
     }
+
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
@@ -240,3 +254,7 @@
       }
 
     }
+
+.calendar{
+  margin-top: 10px;
+}

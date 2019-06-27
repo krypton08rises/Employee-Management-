@@ -1,9 +1,23 @@
-$(document).ready(function(){
-    window.onload = function() {
-                var d = new Date();
-                var n = d.getMonth();
-                what(n);
-                function what(n){
-                    document.getElementById('.month').innerHTML = n;
-                };
-            }});
+
+function mymonth(){
+  document.write(5);
+  /*
+  var month = new Array();
+  month[0] = "January";
+  month[1] = "February";
+  month[2] = "March";
+  month[3] = "April";
+  month[4] = "May";
+  month[5] = "June";
+  month[6] = "July";
+  month[7] = "August";
+  month[8] = "September";
+  month[9] = "October";
+  month[10] = "November";
+  month[11] = "December";
+  var d = new Date();
+  var n = month[d.getMonth()];
+  document.write(n);
+  console.log("n");
+  */
+}
