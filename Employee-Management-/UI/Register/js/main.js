@@ -1,3 +1,10 @@
+function inputdata()
+{
+  console.log("this works!");
+}
+
+
+/*
 (function($) {
 
     $(".toggle-password").click(function() {
@@ -12,3 +19,4 @@
       });
 
 })(jQuery);
+*/
