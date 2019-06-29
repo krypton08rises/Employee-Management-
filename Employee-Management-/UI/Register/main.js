@@ -1,5 +1,5 @@
 
-function inputdata(oEvent)
+function inputdata()
 {
   console.log("this works!");
 var oName = document.getElementById("name").value;
@@ -17,9 +17,9 @@ var oDef = jQuery.Deferred();
 
 jQuery.ajax({
     type: "POST",
-    url: 'C:\xampp\Sites\addinfo.php',
-    dataType: 'json',
-    data: oJsonObjData,
+    url: "localhost:8080/addinfo.php",
+    dataType: "JSON" ,
+    data: {test: oJsonObjData},
 
     success: function (oDeferred) {
         console.log("Registered");
