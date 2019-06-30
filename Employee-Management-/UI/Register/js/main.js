@@ -1,20 +1,22 @@
 function inputdata()
 {
     
-    var oName = document.getElementById("name").value;
-    var oEmail = document.getElementById("email").value;
-    var oPassword = document.getElementById("password").value;
-
-    var dataString = '&name=' + oName + '&email=' + oEmail + '&password=' + oPassword;
+//    var oName = document.getElementById("name").value;
+//    var oEmail = document.getElementById("email").value;
+//    var oPassword = document.getElementById("password").value;
+//
+//  var dataString = 'name=' + oName + '&email=' + oEmail + '&password=' + oPassword;
+    
 
    $.ajax({
-       type: "POST",
+       method: "POST",
        url: 'http://localhost:8080/addinfo.php',
        contentType: "application/json; charset=utf-8",
-       data:{test : dataString},
+       
+       data: { 'name' : "hi"},
 
         success: function (data) {
-            alert("Success!");
+            alert(data);
         },
         error : function(oErr){
           alert(oErr);
@@ -23,4 +25,4 @@ function inputdata()
     });
 }
     
- 
+    
