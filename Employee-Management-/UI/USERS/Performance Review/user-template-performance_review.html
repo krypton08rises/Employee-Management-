@@ -13,9 +13,10 @@
   <!-- Material Kit CSS -->
   <link rel="stylesheet" type="text/css" href="template.css">
   <link href="material-dashboard.css?v=2.1.1" rel="stylesheet"/>
+    <script src="js/user-template-performance_review.js"></script>
 </head>
 
-<body>
+<body onload = "getreview()">
   <div class="wrapper">
     <div class="sidebar" data-color="purple" data-background-color="white">
       <!--
@@ -85,8 +86,9 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">Dashboard</a>
+              <a class="navbar-brand" href="#pablo"><h3>Performance Review</h3></a>
           </div>
+<!--
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon icon-bar"></span>
@@ -100,20 +102,32 @@
                   <i class="material-icons">notifications</i> Notifications
                 </a>
               </li>
-              <!-- your navbar here -->
+               your navbar here 
             </ul>
           </div>
+-->
         </div>
       </nav>
       <!-- End Navbar -->
       <div class="content">
+          <hr/>
         <div class="container-fluid">
           <!-- your content here -->
+            <div class = "panel panel-default">
+                <div class="panel-heading">
+                    <h3>Employee Remarks  :  </h3>
+                </div>
+                <div class="panel-body"  >
+                    <span id = "demo"> </span>
+                </div>
+            </div>
+<!--
           <div class="panel panel-default notifications-bar">
               <div class="panel-heading"><h2>Notifications:</h2></div>
               <br>
               <div class="panel-body">You've got no new notifications.</div>
             </div>
+-->
         </div>
       </div>
       <footer class="footer">
