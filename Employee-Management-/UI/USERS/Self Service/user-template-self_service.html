@@ -13,9 +13,10 @@
   <!-- Material Kit CSS -->
   <link rel="stylesheet" type="text/css" href="template.css">
   <link href="material-dashboard.css?v=2.1.1" rel="stylesheet"/>
+    <script src="user-template-self_service.js"></script>>
 </head>
 
-<body>
+<body onload = "start();">
   <div class="wrapper">
     <div class="sidebar" data-color="purple" data-background-color="white">
       <!--
@@ -85,8 +86,9 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">Dashboard</a>
+            <a class="navbar-brand" href="#pablo"><h3>Self Service</h3></a>
           </div>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
             <span class="navbar-toggler-icon icon-bar"></span>
@@ -96,24 +98,63 @@
           <div class="collapse navbar-collapse justify-content-end">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#pablo">
-                  <i class="material-icons">notifications</i> Notifications
+                <a class="nav-link" href="file:///D:/study%20material/WEB%20DEV/Employee-Management-/UI/Homepage/homepage.html">
+                      <i class="fa fa-sign-out" aria-hidden="true"></i> Log out
                 </a>
               </li>
-              <!-- your navbar here -->
             </ul>
           </div>
         </div>
       </nav>
       <!-- End Navbar -->
       <div class="content">
+          <hr/>
         <div class="container-fluid">
           <!-- -->
+            
+                
+
           <div class="panel panel-default notifications-bar">
-              <div class="panel-heading"><h2>Notifications:</h2></div>
+              <div class="panel-heading"><h4>Update Your Details:</h4></div>
               <br>
+              <div class="panel-body col-md-12">
+              <form>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="email">Employee ID:</label>
+                      <span id="EID"> </span>
+<!--                    <input type="email" class="form-control" id="email">-->
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Department:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Email Address:</label>
+                          <span id="EmailID"> </span>
+<!--                    <input type="email" class="form-control" id="email">-->
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Phone Number:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Home Address:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Birth Date:</label>
+                        <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
+                  </div>
+                    <div class="form-group col-md-6">
+                    <label for="email">Home Address:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+              </form>
+              <!--
               <div class="panel-body">You've got no new notifications.</div>
             </div>
+-->
         </div>
       </div>
       <footer class="footer">
