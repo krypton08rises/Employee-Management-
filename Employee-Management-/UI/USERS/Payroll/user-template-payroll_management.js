@@ -1,6 +1,43 @@
+function getdate(){
+    var dateObj = new Date();
+    mymonth(dateObj);
+    myyear(dateObj);
+}
 
-function mymonth(){
-  document.write(5);
+function mymonth(dateObj){
+var month = dateObj.getUTCMonth() + 1; //months from 1-12     
+    var mL = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+document.getElementById("month").innerHTML = mL[month];
+
+}
+
+function myyear(dateObj){
+document.getElementById("year").innerHTML =  dateObj.getFullYear();
+}
+
+
+/*   $.ajax({
+       method: "POST",
+       url: 'http://localhost:8080/addinfo.php',
+       contentType: "application/json; charset=utf-8",
+       
+       data: { name : 'hi'},
+
+        success: function (data) {
+            window.location = "http://localhost:8080/Login/homepage.html";
+
+        },
+        error : function(oErr){
+          alert(oErr);
+          
+        }
+    });*/
+    
+
+//var day = dateObj.getUTCDate();
+//var year = dateObj.getUTCFullYear();
+
+
   /*
   var month = new Array();
   month[0] = "January";
@@ -19,5 +56,5 @@ function mymonth(){
   var n = month[d.getMonth()];
   document.write(n);
   console.log("n");
+
   */
-}
